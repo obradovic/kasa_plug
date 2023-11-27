@@ -15,9 +15,6 @@
 #   Python 3.11 prints a spurious error on exit, 3.10 works fine:
 #   https://github.com/python/cpython/issues/109538
 #
-#   requirements.txt would be:
-#   python-kasa
-#
 
 import argparse
 import asyncio
