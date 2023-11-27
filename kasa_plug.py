@@ -54,11 +54,11 @@ async def print_info(found_devices: Dict, plug_name: str):
                 if not plug.is_on:
                     state = "off"
 
-                print(f"    {plug.alias} {state}:")
-                print(f"        voltage: {emeter.voltage}")
-                print(f"        current: {emeter.current}")
-                print(f"        power:   {emeter.power}")
-                print(f"        total:   {emeter.total}")
+                print(f"    {plug.alias} is {state}:")
+                print(f"        volts supplied: {emeter.voltage}")
+                print(f"        current amps:   {emeter.current}")
+                print(f"        power watts:    {emeter.power}")
+                print(f"        total KWs:      {emeter.total}")
                 print()
 
 
